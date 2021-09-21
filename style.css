@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  .wrapping{
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .banner-section{
+    background: url(https://pocketnow.com/files/2021/09/amazon-company-logo.jpg)center center fixed no-repeat;
+    background-size: contain;
+    padding: 240px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .button a{
+    background-color: #007bff;
+    font-size: bold;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+    display: block;
+    font-size: 30px;
+    margin-right: 10px;
+    padding: 15px 45px;
+    transition: .5s;
+  }
+  .button a:hover{
+    color: #007bff;
+    background-color: #fff;
+    box-shadow: 3px 3px 27px 5px red; 
+  }
+  .content-section{
+    display: flex;
+    padding: 20px 0;
+    background-color: #fafafa;
+    
+  }
+  .left-section img{
+    width: 200px;
+    
+  }
+  .left-section{
+    display: flex;
+    
+  }
+  .left-section p{
+    margin: 40px 10px;
+    font-size: 20px;
+    
+  }
+  .right-section h1{
+    border-bottom: 1px solid orange;
+    
+  }
+  .container{
+    display: flex;
+    flex-grow: 1;
+  }
+  .left h2{
+    display: block;
+    text-align: center;
+    border-bottom: 3px dotted red;
+    margin-bottom: 30px;
+    margin-left: 10px;
+  }
+  .right h2{
+    text-align: center;
+    border-bottom: 3px dotted palegreen;
+    margin-bottom: 30px;
+  }
